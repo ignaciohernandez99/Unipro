@@ -20,7 +20,7 @@ Para ejecutar, lanzar desde la consola de comandos de Windows el script desde Py
 <h3>Uso de los scripts</h3>
 
 ```
-python planificador_geom.py <instancia.json> <tiempo> [estrategia (1,2,3,4,5)]
+python planificador_geom.py <instancia.json> <tiempo_maximo> [estrategia (1,2,3,4,5)]
 ```
 
 <h3>Ejemplo de ejecución</h3>
