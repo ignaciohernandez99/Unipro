@@ -47,5 +47,5 @@ Tiempo ejecución: 1.00 segundos
 Memoria máxima utilizada: 18.42 MB
 Puntos de entrega visitados: 14/14
 Recargas efectuadas: 3
-Total de intentos del algoritmo Las Vegas: 
+Total de intentos del algoritmo Las Vegas: 7
 ```
