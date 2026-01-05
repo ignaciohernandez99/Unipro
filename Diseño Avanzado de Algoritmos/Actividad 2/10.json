@@ -1,0 +1,86 @@
+{
+	"mapa": {
+		"vertices": [
+		  { "id": "HUB", "tipo": "hub_central", "x": 50, "y": 50 },
+
+		  { "id": "E1", "tipo": "punto_entrega", "x": 20, "y": 80 },
+		  { "id": "E2", "tipo": "punto_entrega", "x": 15, "y": 20 },
+		  { "id": "E3", "tipo": "punto_entrega", "x": 80, "y": 20 },
+		  { "id": "E4", "tipo": "punto_entrega", "x": 85, "y": 80 },
+		  { "id": "E5", "tipo": "punto_entrega", "x": 60, "y": 90 },
+		  { "id": "E6", "tipo": "punto_entrega", "x": 40, "y": 10 },
+		  { "id": "E7", "tipo": "punto_entrega", "x": 90, "y": 60 },
+
+		  { "id": "C1", "tipo": "punto_recarga", "x": 30, "y": 60 },
+		  { "id": "C2", "tipo": "punto_recarga", "x": 40, "y": 30 },
+		  { "id": "C3", "tipo": "punto_recarga", "x": 70, "y": 50 }
+		],
+
+		"rutas": [
+			{ "p1": "HUB", "p2": "C1", "peso": { "distancia": 22.4, "riesgo": 0.2, "consumo": 8 } },
+			{ "p1": "HUB", "p2": "C2", "peso": { "distancia": 28.3, "riesgo": 0.25, "consumo": 10 } },
+			{ "p1": "HUB", "p2": "C3", "peso": { "distancia": 20.0, "riesgo": 0.18, "consumo": 7 } },
+			{ "p1": "HUB", "p2": "E6", "peso": { "distancia": 40.3, "riesgo": 0.4, "consumo": 15 } },
+
+			{ "p1": "HUB", "p2": "E3", "peso": { "distancia": 42.4, "riesgo": 0.35, "consumo": 15 } },
+			{ "p1": "HUB", "p2": "E7", "peso": { "distancia": 41.2, "riesgo": 0.35, "consumo": 15 } },
+			{ "p1": "HUB", "p2": "E4", "peso": { "distancia": 43.0, "riesgo": 0.36, "consumo": 16 } },
+
+			{ "p1": "C1", "p2": "E1", "peso": { "distancia": 14.1, "riesgo": 0.15, "consumo": 5 } },
+			{ "p1": "C1", "p2": "C2", "peso": { "distancia": 36.1, "riesgo": 0.3, "consumo": 13 } },
+			{ "p1": "C1", "p2": "HUB", "peso": { "distancia": 22.4, "riesgo": 0.2, "consumo": 8 } },
+
+			{ "p1": "C2", "p2": "E2", "peso": { "distancia": 25.5, "riesgo": 0.2, "consumo": 9 } },
+			{ "p1": "C2", "p2": "E6", "peso": { "distancia": 20.6, "riesgo": 0.15, "consumo": 7 } },
+			{ "p1": "C2", "p2": "C3", "peso": { "distancia": 36.1, "riesgo": 0.35, "consumo": 13 } },
+
+			{ "p1": "C3", "p2": "E3", "peso": { "distancia": 18.0, "riesgo": 0.15, "consumo": 6 } },
+			{ "p1": "C3", "p2": "E7", "peso": { "distancia": 22.4, "riesgo": 0.2, "consumo": 8 } },
+			{ "p1": "C3", "p2": "E4", "peso": { "distancia": 29.2, "riesgo": 0.25, "consumo": 11 } },
+			{ "p1": "C3", "p2": "E5", "peso": { "distancia": 31.6, "riesgo": 0.3, "consumo": 12 } },
+			{ "p1": "C3", "p2": "HUB", "peso": { "distancia": 20.0, "riesgo": 0.18, "consumo": 7 } },
+
+			{ "p1": "E1", "p2": "E5", "peso": { "distancia": 41.2, "riesgo": 0.4, "consumo": 15 } },
+
+			{ "p1": "E2", "p2": "E6", "peso": { "distancia": 25.5, "riesgo": 0.25, "consumo": 9 } },
+
+			{ "p1": "E3", "p2": "E7", "peso": { "distancia": 72.1, "riesgo": 0.6, "consumo": 25 } },
+
+			{ "p1": "E4", "p2": "E7", "peso": { "distancia": 18.0, "riesgo": 0.15, "consumo": 6 } },
+			{ "p1": "E5", "p2": "E7", "peso": { "distancia": 31.6, "riesgo": 0.35, "consumo": 12 } },
+			{ "p1": "E5", "p2": "E4", "peso": { "distancia": 29.0, "riesgo": 0.25, "consumo": 11 } },
+						
+			{ "p1": "C1", "p2": "C3", "peso": { "distancia": 44.7, "riesgo": 0.4, "consumo": 16 } }
+		],
+
+		"no_fly": [
+			{
+				"id": "NFZ_1",
+				"poligono": [
+				  { "x": 38, "y": 20 },
+				  { "x": 38, "y": 25 },
+				  { "x": 42, "y": 25 },
+				  { "x": 42, "y": 20 }
+				]
+			},
+			{
+				"id": "NFZ_2",
+				"poligono": [
+				  { "x": 54, "y": 44 },
+				  { "x": 58, "y": 44 },
+				  { "x": 58, "y": 49 },
+				  { "x": 54, "y": 49 }
+				]
+			},
+			{
+				"id": "NFZ_3",
+				"poligono": [
+				  { "x": 75, "y": 65 },
+				  { "x": 80, "y": 65 },
+				  { "x": 80, "y": 70 },
+				  { "x": 75, "y": 70 }
+				]
+			}
+		]
+	}
+}

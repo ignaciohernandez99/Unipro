@@ -1,4 +1,6 @@
-<h1>Instrucciones de ejecución</h1>
+
+<h1>Actividad 1</h1> 
+<h2>Instrucciones de ejecución</h2>
 
 <ul>
   <li><b>lcs_rec.py:</b> Recursividad directa sin memorización</li>
