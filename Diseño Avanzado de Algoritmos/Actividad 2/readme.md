@@ -2,8 +2,8 @@
 <h2>Instrucciones de ejecución</h2>
 
 <ul>
-  <li><b>lcs_rec.py:</b> Backtracking/Branch-and-Bound con poda guiada por heurística</li>
-  <li><b>lcs_divcon.py:</b> Algoritmo geométrico basado en visibilidad</li>
+  <li><b>planificador_b&b.py:</b> Backtracking/Branch-and-Bound con poda guiada por heurística</li>
+  <li><b>planificador_geo.py:</b> Algoritmo geométrico basado en visibilidad</li>
   <li><b>planificador_metarand.py:</b> Metaheurística (Simmulated Annealing) con algoritmo Las Vegas</li>
 </ul>
 
